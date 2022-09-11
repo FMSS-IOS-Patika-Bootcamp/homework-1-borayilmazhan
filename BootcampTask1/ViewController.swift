@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         secondVC.delegate = self
         navigationController?.pushViewController(secondVC, animated: true)
         
+        //The code we use to get to the 2nd page
     }
 }
 
@@ -37,6 +38,8 @@ extension ViewController: SecondVCDelegate {
         birthdayLabel.text = birthday
         serialNumberLabel.text = serialNNumber
         genderLabel.text = gender
+        
+        //The code we took to extract the data on the 2nd page
     }
     
 }

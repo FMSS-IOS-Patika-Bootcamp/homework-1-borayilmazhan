@@ -7,8 +7,13 @@
 
 import UIKit
 
+
+
 protocol SecondVCDelegate: AnyObject {
     func getData(name: String, surname:String, birthday:String, serialNNumber: String, gender: String)
+    
+    //We created it to send information to the first viewcontroller
+
 }
 
 class SecondVC: UIViewController {
@@ -37,6 +42,9 @@ class SecondVC: UIViewController {
         } else {
             print("Alert goster")
         }
+        
+        //we used this function to retrieve information
+
         
     }
     
