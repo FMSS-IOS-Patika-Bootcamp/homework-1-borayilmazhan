@@ -24,6 +24,7 @@ class SecondVC: UIViewController {
     @IBOutlet weak var genderText: UITextField!
     
     weak var delegate: SecondVCDelegate?
+    //we have defined this class as specific.
     
     override func viewDidLoad() {
         
@@ -43,7 +44,7 @@ class SecondVC: UIViewController {
             print("Alert goster")
         }
         
-        //we used this function to retrieve information
+        //we used this function to retrieve information.
 
         
     }
